@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+body {
+	padding: 200x;
+}
+
+.mssv {
+	font-family: 'Concert One', cursive;	
+}
+
+.container {
+	padding: 50px;
+	width: 60vw;
+	border-radius: 20px;
+    margin: 50px auto;
+	background: linear-gradient(35deg,  #CCFFFF,  #FFCCCC);
+}
+
+.cover-image img {
+	background-size: cover;	
+	width: 150px;
+	height: 150px;
+}
+
+img {
+	border-radius: 50%;	
+}
+
+.top {
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	text-align: center;	
+}	
+
+.fab {
+	margin-right: 20px;	
+}

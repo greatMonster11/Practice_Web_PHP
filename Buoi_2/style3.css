@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: grey;
+  padding: 0 50px;
+}
+
+#wrap {
+  padding: 15px;
+  background-color: mediumseagreen;
+}
+
+#title {
+  background-image: url("banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15vh;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+}
+
+#menu {
+  margin: 10px 0;
+}
+
+#menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown a {
+  display: block;
+  text-decoration: none;
+  width: 20vw;
+  text-align: center;
+  background-color: black;
+  color: yellow;
+  border: 1px dashed yellow;
+  font-size: 18px;
+  padding: 3px;
+}
+
+.dropdown ul {
+  position: relative;
+  display: none;
+}
+
+.dropdown:hover ul {
+  position: absolute;
+  z-index: 1;
+  display: block;
+}
+
+.dropdown:hover ul a:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+#content {
+  clear: left;
+  padding: 15px;
+  border-bottom: 3px dotted black;
+}
+
+#content h4 {
+  display: inline-block;
+  color: yellow;
+  font-size: 25px;
+  border-bottom: 2px dotted yellow;
+}
+
+#content p {
+  font-family: monospace;
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#content ul {
+  padding: 0 30px;
+}
+
+#content li {
+  font-size: 18px;
+}
+
+#content a {
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+}
+
+#footer p {
+  margin-top: 25px;
+  font-size: 20px;
+}

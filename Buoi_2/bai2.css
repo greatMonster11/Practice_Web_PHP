@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+body {
+	background-color: black;
+	padding: 0 80px;
+}
+
+#wrap {
+	height: 100vh;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#title {
+	background-image: url('header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40vh;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#title h1 {
+	color: white;
+	text-shadow: 3px 3px 2px yellow;
+	font-size: 3rem;
+	padding: 20px;
+}	
+
+
+#menu {
+	position: absolute;
+	display: inline-block;
+	float: left;
+	width: 20%;
+}
+
+#menu h4 {
+	background-color: blue;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#menu ul {
+	padding: 4px;
+	background-color: skyblue;
+}
+
+#menu li {
+	list-style: none;
+	padding: 5px;
+	margin: 5px 0;
+	border-bottom: 1px solid white;
+}
+
+#menu li:hover {
+	background-color: lightpink;
+}
+
+#menu li a {
+	text-decoration: none;
+	display: block;
+}
+
+#content {
+	position: relative;
+	margin-bottom: 30px;
+	display: inline-block;
+	float: right;
+	width: 75%;
+}
+
+#content h4 {
+	color: blue;
+	font-size: 25px;
+	margin-bottom: 8px;
+}
+
+#content p {
+	font-family: monospace;
+	font-size: 1rem;
+	margin: 10px 0;
+}
+
+#footer {
+	position: relative;
+	clear: right;
+	text-align: center;
+	border-top: 3px solid black;
+	border-color: gray;
+}
+
+#footer p {
+	margin-top: 20px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="signup.css" />
+    <script src="xulyDangki.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Đăng kí tài khoản mới</h3>
+        <p>Vui lòng điển đầy đủ thông tin bên dưới để đăng kí tài khoản mới</p>
+      </div>
+      <div class="wrap">
+        <div class="form-control">
+          <form
+            action="handle_signup.php"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <table>
+              <tr>
+                <td>
+                  <label>Tên đăng nhập</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    name="username"
+                    onchange="isExisted(this.value)"
+                  />
+                  <div id="myDiv"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Mật khẩu</label>
+                </td>
+                <td>
+                  <input type="password" name="password" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Gõ lại mật khẩu</label>
+                </td>
+                <td>
+                  <input type="password" name="confirmPassword" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Hình đại diện</label>
+                </td>
+                <td>
+                  <input type="file" name="avatar" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Giới tính</label>
+                </td>
+                <td>
+                  <input type="radio" name="gender" value="male" /> Nam
+                  <input type="radio" name="gender" value="female" /> Nữ
+                  <input type="radio" name="gender" value="other" /> Khác
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Nghề nghiệp</label>
+                </td>
+                <td>
+                  <select name="job">
+                    <option value="Học sinh">Học sinh</option>
+                    <option value="Sinh viên">Sinh viên</option>
+                    <option value="Giáo viên">Giáo viên</option>
+                    <option value="Khác">Khác</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Sở thích</label>
+                </td>
+                <td>
+                  <input type="checkbox" name="hobby[]" value="Sport" />Thể thao
+                  <input type="checkbox" name="hobby[]" value="Travel" />Du lịch
+                  <input type="checkbox" name="hobby[]" value="Music" />Âm nhạc
+                  <input type="checkbox" name="hobby[]" value="Fashion" />Thời
+                  trang
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <button type="submit">Đăng kí</button>
+                  <button type="button">Làm lại</button>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+      <div class="get-back">
+        <a href="index.html#top">Back to Homepage</a>
+      </div>
+    </div>
+  </body>
+</html>
