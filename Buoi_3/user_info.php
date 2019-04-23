@@ -34,6 +34,7 @@ if (isset($_SESSION['idUser'])) {
   <h2><a href="logout.php">Sign Out</a></h2>
   <a href="addProduct.php"><button>Add product</button></a>
   <a href="listProducts.php"><button>View product</button></a>
+  <a href="../Buoi_4/bai_4.php"><button>Buoi_4 Bai 4</button></a>
 </body>
 
 </html>
