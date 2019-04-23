@@ -59,3 +59,7 @@ button:hover {
   border: 2px solid whitesmoke;
   color: white;
 }
+
+.hasError {
+  border: 2px solid red;
+}

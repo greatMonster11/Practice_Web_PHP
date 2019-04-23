@@ -5,6 +5,7 @@
     <title>Signup Form</title>
     <link rel="stylesheet" href="signup.css" />
     <script src="xulyDangki.js"></script>
+    <script src="/Buoi_4/signup_validate.js"></script>
   </head>
   <body>
     <div class="container">
@@ -15,9 +16,11 @@
       <div class="wrap">
         <div class="form-control">
           <form
+            name="myForm"
             action="handle_signup.php"
             method="post"
             enctype="multipart/form-data"
+            onsubmit="return validateForm()"
           >
             <table>
               <tr>
@@ -39,6 +42,7 @@
                 </td>
                 <td>
                   <input type="password" name="password" />
+                  <div id="failedPassword"></div>
                 </td>
               </tr>
               <tr>
@@ -62,7 +66,7 @@
                   <label>Giới tính</label>
                 </td>
                 <td>
-                  <input type="radio" name="gender" value="male" /> Nam
+                  <input checked type="radio" name="gender" value="male" /> Nam
                   <input type="radio" name="gender" value="female" /> Nữ
                   <input type="radio" name="gender" value="other" /> Khác
                 </td>
@@ -73,7 +77,7 @@
                 </td>
                 <td>
                   <select name="job">
-                    <option value="Học sinh">Học sinh</option>
+                    <option selected value="Học sinh">Học sinh</option>
                     <option value="Sinh viên">Sinh viên</option>
                     <option value="Giáo viên">Giáo viên</option>
                     <option value="Khác">Khác</option>
@@ -85,7 +89,12 @@
                   <label>Sở thích</label>
                 </td>
                 <td>
-                  <input type="checkbox" name="hobby[]" value="Sport" />Thể thao
+                  <input
+                    checked
+                    type="checkbox"
+                    name="hobby[]"
+                    value="Sport"
+                  />Thể thao
                   <input type="checkbox" name="hobby[]" value="Travel" />Du lịch
                   <input type="checkbox" name="hobby[]" value="Music" />Âm nhạc
                   <input type="checkbox" name="hobby[]" value="Fashion" />Thời
