@@ -37,24 +37,13 @@ include("../Buoi_3/config.php");
 
 				</select>
 			</form>
-			<p>Yêu cầu:<br />
-				Có 4 hình ảnh về máy tính đính kèm, mặc định hiển thị hình máy HP.<br />
-				<ul>
-					<li>Khi người dùng nhấn Next thì hiển thị hình tiếp theo (theo thứ tự Hp -> Dell -> Acer -> Asus).</li>
-					<li>Khi người dùng nhấp Previous thì hiển thị hình trước đó.</li>
-					<li>Cả nút Next và Previous đều hiển thị vòng tròn (nếu đang xem hình HP mà nhấn Previous thì sẽ chuyển sang hình Asus).</li>
-					<li>Người dùng có thể chọn xem một hình nào đó từ danh sách bên dưới nút Previous và Next.</li>
-					<li>Khi người dùng thay đổi hình bằng cách nhấn Previous hoặc Next thì tên hiển thị bên dưới cũng thay đổi theo.</li>
-				</ul>
-			</p>
+
+			<div id="footer">
+				<p>Họ tên SV: Nguyễn Phước Thành <br /> Email: thanhb1610669@student.ctu.edu.vn</p>
+			</div>
+			<!--end div footer-->
 		</div>
-		<!--end div content-->
-		<div id="footer">
-			<p>Họ tên SV: Nguyễn Phước Thành <br /> Email: thanhb1610669@student.ctu.edu.vn</p>
-		</div>
-		<!--end div footer-->
-	</div>
-	<!--end div wrap-->
+		<!--end div wrap-->
 
 </body>
 <script>
