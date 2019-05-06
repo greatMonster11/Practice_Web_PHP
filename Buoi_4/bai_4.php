@@ -90,14 +90,14 @@ include("../Buoi_3/config.php");
 
 	function plusSlides(pos) {
 
-		if (pos === 4) {
+		if (pos === IMAGE_NAMES.length + 1) {
 			pos = 0
 			slideIndex = 0
 		}
 
 		if (pos === -1) {
-			pos = 3
-			slideIndex = 3
+			pos = IMAGE_NAMES.length
+			slideIndex = IMAGE_NAMES.length
 		}
 		console.log(pos)
 		var path = "./../Buoi_3"
