@@ -1,0 +1,25 @@
+{
+  "name": "Web_Practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatMonster11/Practice_Web_PHP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greatMonster11/Practice_Web_PHP/issues"
+  },
+  "homepage": "https://github.com/greatMonster11/Practice_Web_PHP#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}

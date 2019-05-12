@@ -1,5 +1,7 @@
+// eslint-disable-next-line linebreak-style
+// eslint-disable-next-line require-jsdoc
 function validateForm() {
-  //alert("Function called");
+  // alert("Function called");
   var username = document.forms["myForm"]["username"].value;
   var password = document.forms["myForm"]["password"].value;
   var confirmPassword = document.forms["myForm"]["confirmPassword"].value;
